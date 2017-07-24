@@ -1,0 +1,210 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	height:100%;
+	font-size:16px;
+	font-family:'楷体';
+	color:#FFFFFF;
+}
+li{
+	cursor:pointer;
+}
+/* 固定导航条的内部字体颜色 */
+.container div{
+	color: #FFFFFF;
+	display:inline-block;
+}
+.container div:first-child{
+	height:50px;
+	line-height:50px;
+}
+.container .btns{
+	float:right;
+}
+.btns ul{
+	height:50px;
+}
+.btns li{
+	line-height:50px;
+	width:85px;
+	text-align:center;
+}
+/* li 小圆圈 */
+.div_ul{
+	width:150px;
+	position:absolute;
+	top:30%;left:5%;
+	z-index: 1;
+}
+.div_ul ul{
+	list-style-position:inside; 
+	list-style:none;
+}
+.div_ul li{
+	width:24px;height:24px;
+	border:1px solid ;
+	border-radius:12px;
+	margin:20px 0;
+}
+/* 最大div背景 */
+.cent{    
+    padding-top:50px;
+	height: 100%;
+    position: absolute;
+    width: 100%;
+    overflow:scroll;
+}
+/* public */
+.cont_div>div>div{
+	display:inline-block;
+}
+/* 第一个 */
+.cont_div{
+	background:#EC3737;
+	text-align:center;
+}
+.cont_div img{
+	height:100%;
+}
+.cont_div>div{
+	position:absolute;
+	left:20%;top:15%;
+	width:60%;height:70%;
+}
+.cont_div div img{
+	width:200px;height:200px;
+	border:1px solid transparent;
+	border-radius:100px;
+}
+.cont_div div>div:first-child{
+	width:30%;
+	position:relative;
+	top:23%;left:-15%;
+}
+.cont_div div>div:last-child{
+	border:transparent;
+	border-left:1px solid #9A9797;
+	padding-left:20px;
+	position:relative;
+	top:35%;
+	font-size:22px;
+}
+/* 第二个 */
+.cont_div2{
+	background: #FACBCB;
+	text-align:center;
+	color:#E44425;
+}
+.cont_div2 img{
+	width:800px;
+	padding-top:10px;
+}
+.cont_div2>div{
+	position:absolute;
+	left:33%;top:44%;
+	width:35%;
+	font-size: 1.25em;
+}
+/* .cont_div2 div img{
+	width:48px;
+	transition:1s;
+}
+.cont_div2 img:hover{
+	transform:rotate(720deg);
+} */
+/* 第三个 */
+.cont_div3{
+	background:#A77777 ;
+	text-align:center;
+}
+.cont_div3>div{
+	position:relative;
+	left:20%;top:15%;
+	width:60%;
+}
+.cont_div3 ul{
+	list-style:none;
+	display:inline-block;
+	border:2px solid #FFFFFF;
+	width:15.5%;height:60%;
+	vertical-align:top;
+	font-size:20px;
+	font-family:"Microsoft YaHei light";
+	margin:0 20px;
+}
+.cont_div3 li{
+	height: 36px;
+    line-height: 36px;
+}
+.cont_div3 ul li:first-child{
+	background:#FFFFFF;
+	color:#050505;
+}
+.cont_div3 ul li:hover{
+	background:#FFFFFF;
+	color:#050505;
+}
+/* 第四个 */
+.cont_div4{
+	background:#942EE3 ;
+	text-align:center;
+}
+.cont_div4>div{
+	/* border:1px solid #101010; */
+	position:relative;
+	left:20%;top:15%;
+	width:60%;
+}
+.cont_div4 .first_div div{
+	display:inline-block;
+	width:23%;height:32%;
+	background-size: cover;
+	background-position: center center;
+	line-height:250px;
+	cursor:pointer;
+}
+.div_img1{
+	background: url(../images/华为首页.png) no-repeat;
+}
+.div_img2{
+	background: url(../images/教育黄页.png) no-repeat;
+}
+.div_img3{
+	background: url(../images/班级留言板.png) no-repeat;
+}
+.div_img4{
+	background: url(../images/豆瓣.png) no-repeat;
+}
+.project{
+	width:70%;
+	position:relative;
+	top:5%;left:10%;
+}
+/* 第五个 */
+.cont_div5{
+	background:#6DBCC8 ;
+}
+.cont_div5>div{
+	/* border:1px solid #101010; */
+	position:relative;
+	left:20%;top:15%;
+	width:60%;
+	text-align:center;
+}
+
+/* 第六个 */
+.cont_div6{
+	background:#B6CB5D ;
+	text-align:center;
+}
+.cont_div6 img{
+	width:200px;
+}
+.cont_div6>div{
+	position:relative;
+	left:20%;top:15%;
+	width:60%;
+	text-align:
+}
